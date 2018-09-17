@@ -116,7 +116,7 @@ SELECT title, COUNT(inventory.inventory_id) As copies
 FROM film 
 INNER JOIN inventory  
 ON film.film_id = inventory.film_id
-WHERE title = "Hunchback Impossible";
+WHERE title = "Hunchback Impossible"
 GROUP BY film.title;
 
 -- 6e. Using the tables payment and customer and the JOIN command, 
